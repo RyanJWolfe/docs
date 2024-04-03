@@ -287,7 +287,10 @@ Clipboard managers are tools that store a history of items you've copied to the 
 ### Notes 🗒️
 I find it helpful to keep a digital notebook for jotting down ideas, code snippets, or other information. This can be a simple text file, the build-in Notes app, or a dedicated note-taking app like [Notion](https://www.notion.so/).
 
+Do you ever find yourself needing to ask a question more than once because you forgot the answer?  I do.  Having a place to jot down notes can help you remember important information and save your time and potentially others' time in the long run.
+
 💡 Tip: Use keyboard shortcuts to quickly open your notes app, create new notes, and search for existing notes.
+
 
 
 ## Conclusion
