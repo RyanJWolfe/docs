@@ -17,18 +17,18 @@ In this document, we'll explore various techniques to improve efficiency in comp
 ## 1. Baseline Skills
 
 One of the foundational and sometimes overlooked skills for any programmer is keyboard proficiency, specifically typing speed and accuracy.\
-The faster you can type (without thinking i.e. muscle memory), the quicker you can translate your thoughts into code, write documentation, navigate your computer, etc.  
+The faster you can type (without thinking i.e. muscle memory), the quicker you can translate your thoughts into code, write documentation, navigate your computer, etc.
 
 ### Touch Typing:
 
-[Touch typing](https://en.wikipedia.org/wiki/Touch_typing) is the technique of typing without looking at the keyboard.  I am also including home row finger placement as part of touch typing.  Learning to touch type will allow you to focus on the screen and code rather than the keyboard.  
+[Touch typing](https://en.wikipedia.org/wiki/Touch_typing) is the technique of typing without looking at the keyboard.  I am also including home row finger placement as part of touch typing.  Learning to touch type will allow you to focus on the screen and code rather than the keyboard.
 
-Disclaimer: Learning how to touch type with "proper" finger placement might initially slow you down, but it won't take long to learn, and the long-term benefits are well worth the investment.  
+Disclaimer: Learning how to touch type with "proper" finger placement might initially slow you down, but it won't take long to learn, and the long-term benefits are well worth the investment.
 
 From my own experience, I was a decently fast typer at ~80-100 wpm without using all of my fingers and semi-touch typing. Once I made the effort to learn touch typing, my speed initially dropped to around 70 wpm.   After 3-4 weeks of practice, I was back up to my original speed, eventually surpassing it and reliably typing at 95-115 wpm with fewer errors.
 
 
-There are numerous online resources and typing tutors available to help you learn touch typing such as https://www.typing.com/student/lessons. 
+There are numerous online resources and typing tutors available to help you learn touch typing such as https://www.typing.com/student/lessons.
 
 ### Typing Speed:
 
@@ -77,7 +77,7 @@ lsof -i :6379 # 6379 is the default redis port
 kill -9 <PID> # Kill the process
 ```
 
-### Terminal customization 
+### Terminal customization
 #### Oh-My-Zsh (Optional):
 A common shell configuration that enhances the command line experience in MacOS is Oh-My-Zsh. It provides additional features such as auto-completion, syntax highlighting, and themes to customize your shell prompt.
 
@@ -135,7 +135,28 @@ git commit -m "Update README" # or gc -m "Update README"
 git push # or gp
 ```
 
+#### Customization:
 
+Vim is highly customizable, and you can configure it to suit your preferences. You can create custom key mappings, install plugins, and customize the appearance of Vim to make it more efficient and user-friendly.
+
+There are many resources available online to help you customize Vim, including the official documentation and various tutorials.
+
+Here is my personal `.vimrc` file for reference, I only have a few customizations:
+```vim
+syntax on " Enable syntax highlighting
+set number " Show line numbers
+
+runtime macros/matchit.vim " Enable matching pairs of parentheses, brackets, etc.
+
+set autoindent " Automatically indent new lines based on the previous line (useful for code)
+set backspace=indent,eol,start " Allow backspacing over everything in insert mode
+set hidden " Allow switching buffers without saving
+set incsearch " Incremental search
+set ruler " Show the cursor position all the time
+set wildmenu " Enhanced command-line completion
+
+inoremap jj <ESC> " Map jj to escape in insert mode (alternative to pressing escape)
+```
 
 
 ### Git CLI (Optional):
@@ -157,7 +178,7 @@ Learning keyboard shortcuts is another effective way to boost efficiency for dev
 
 You are most likely already familiar with many keyboard shortcuts (e.g. copy, paste, undo, save, active window switching), but if you ever find yourself reaching for the mouse or navigating through menus, there is probably a keyboard shortcut that can save you time.
 
-Start with a few shortcuts that you use may frequently and gradually add more to your repertoire.  
+Start with a few shortcuts that you use may frequently and gradually add more to your repertoire.
 
 Here is a list of some common Mac keyboard shortcuts that I find myself using frequently:
 
@@ -231,7 +252,7 @@ As IDEs may have different shortcuts, I won't list them here, but here are some 
 [JetBrains](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)\
 [Visual Studio Code](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
-Both IDEs have plugins that can help you learn and practice shortcuts.  For example, the [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) plugin for IntelliJ IDEA will show you the keyboard shortcuts you could have used for actions you perform with the mouse. 
+Both IDEs have plugins that can help you learn and practice shortcuts.  For example, the [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) plugin for IntelliJ IDEA will show you the keyboard shortcuts you could have used for actions you perform with the mouse.
 
 ## 5. Additional Tools and Resources (MacOS)
 
@@ -254,6 +275,8 @@ Clipboard managers are tools that store a history of items you've copied to the 
 
 Efficiency in computer programming is not just about writing code faster; it's about optimizing your entire workflow to save time and reduce errors. By improving your typing speed, mastering the command line, learning keyboard shortcuts, and utilizing IDE features, you can become a more productive and effective programmer.
 
-Remember, efficiency is a journey, not a destination. Continuously seek ways to streamline your workflow and incorporate new tools and techniques to boost your productivity.  
+Remember, efficiency is a journey, not a destination. Continuously seek ways to streamline your workflow and incorporate new tools and techniques to boost your productivity.
 
 Something something Rome wasn't built in a day...
+
+Happy coding!
