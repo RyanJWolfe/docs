@@ -212,7 +212,7 @@ Option + Right Arrow: Move one word right
 Cmd + Backspace: Delete line
 Cmd + Shift + Left Arrow: Select text to beginning of line
 Cmd + Shift + Right Arrow: Select text to end of line
-Shift + Opt/Cmd/Arrow: Highight text
+Shift + Opt/Cmd/Arrow: Highlight text
 Cmd + F: Find
 Cmd + G: Find next
 
