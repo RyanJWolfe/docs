@@ -6,6 +6,14 @@ As established software engineers, you're already well-versed in the intricacies
 
 In this document, we'll explore various techniques to improve efficiency in computer programming.
 
+## Table of Contents
+
+1. [Baseline Skills](#1-baseline-skills)
+2. [Command Line (MacOS/Linux)](#2-command-line-macoslinux)
+3. [Keyboard Shortcuts](#3-keyboard-shortcuts)
+4. [IDE Shortcuts](#4-ide-shortcuts)
+5. [Additional Tools and Resources (MacOS)](#5-additional-tools-and-resources-macos)
+
 ## 1. Baseline Skills
 
 One of the foundational and sometimes overlooked skills for any programmer is keyboard proficiency, specifically typing speed and accuracy.\
@@ -204,9 +212,7 @@ Cmd + Option + Left/Right Arrow: Navigate to previous or next tab
 At the end of the day, the best keyboard shortcuts are the ones that you use frequently and help you save time.  If you find yourself doing a task repeatedly, look for a keyboard shortcut that can help you do it faster.
 
 
-## 4. IDE Tips and Tricks
-
-### IDE Shortcuts:
+## 4. IDE Shortcuts
 
 IDEs provide a wealth of keyboard shortcuts to help you navigate, edit, and debug your code more efficiently. Familiarize yourself with the most commonly used shortcuts in your IDE to speed up your workflow.
 
