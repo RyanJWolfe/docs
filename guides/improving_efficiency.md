@@ -13,13 +13,14 @@ In this document, we'll explore various techniques to improve efficiency in comp
 3. [Keyboard Shortcuts](#3-keyboard-shortcuts)
 4. [IDE Shortcuts](#4-ide-shortcuts)
 5. [Additional Tools and Resources (MacOS)](#5-additional-tools-and-resources-macos)
+6. [Conclusion](#conclusion)
 
 ## 1. Baseline Skills
 
 One of the foundational and sometimes overlooked skills for any programmer is keyboard proficiency, specifically typing speed and accuracy.\
 The faster you can type (without thinking i.e. muscle memory), the quicker you can translate your thoughts into code, write documentation, navigate your computer, etc.
 
-### Touch Typing:
+### Touch Typing
 
 [Touch typing](https://en.wikipedia.org/wiki/Touch_typing) is the technique of typing without looking at the keyboard.  I am also including home row finger placement as part of touch typing.  Learning to touch type will allow you to focus on the screen and code rather than the keyboard.
 
@@ -30,7 +31,7 @@ From my own experience, I was a decently fast typer at ~80-100 wpm without using
 
 There are numerous online resources and typing tutors available to help you learn touch typing such as https://www.typing.com/student/lessons.
 
-### Typing Speed:
+### Typing Speed
 
 Going hand in hand with touch typing is typing speed.  The faster you can type, the quicker you can do most tasks on a computer.
 
@@ -39,7 +40,7 @@ Take some time to assess your current typing speed using online tools like https
 To improve your typing speed, you will probably find that with just 5-10 minutes a day, you can make significant progress.
 
 
-#### Exercise:
+#### Exercise
 As an exercise, record your current typing speed (WPM) and then do another test after a week of practice.  How much did you improve?
 
 **Current Typing Speed**: XX WPM\
@@ -53,12 +54,12 @@ Command line proficiency is a valuable skill for software engineers or any heavy
 The command line interface (CLI) provides a powerful and efficient way to interact with your computer and perform a wide range of tasks.
 
 
-### Basic Commands:
+### Basic Commands
 
 If you are relatively new to the command line, consider taking an online course or tutorial to get up to speed.\
 Here is a blog post that covers some of the basic commands and functionality: https://www.git-tower.com/blog/command-line-cheat-sheet/
 
-#### Command Line Applied:
+#### Command Line Applied
 As a real world example of how the command line can be used, consider the following scenario:
 
 You are working in one of our Rails projects that use redis.  You have the server running with redis locally, but the terminal/IDE you are using to run the server crashes/closes for whatever reason.
@@ -78,7 +79,7 @@ kill -9 <PID> # Kill the process
 ```
 
 ### Terminal customization
-#### Oh-My-Zsh (Optional):
+#### Oh-My-Zsh (Optional)
 A common shell configuration that enhances the command line experience in MacOS is Oh-My-Zsh. It provides additional features such as auto-completion, syntax highlighting, and themes to customize your shell prompt.
 
 This is totally optional, but it can take you down the path of customizing your shell environment to suit your preferences.
@@ -96,7 +97,7 @@ Plugins that I find particularly useful include:
 
 
 
-#### Aliases:
+#### Aliases
 
 Creating aliases for commonly used commands can save time and reduce typing. Aliases can be defined in your shell configuration file (e.g., .bashrc, .zshrc).
 
@@ -117,31 +118,29 @@ Vim is a powerful text editor that runs in the command line. While it has a stee
 
 Note: Vim is not for everyone, and there are many other text editors available. However, learning Vim (or another CLI text editor) can be a valuable skill to have, especially when working on remote servers or quickly editing files from the command line.
 
-#### Basic Vim Commands:
+#### Basic Vim Commands
 
 To get started with Vim, learn the basic commands for navigating, editing, and saving files. If you are unfamiliar with the basics of Vim, you can use the built-in Vim tutor by running `vimtutor` in the command line.
 
-#### Vim applied:
+#### Vim applied
 
-Say you want to update a README file. You can edit the file in Vim, make your changes, save the file, and commit the changes to your repository without ever leaving the command line.
+Say you want to update a README file. You can edit the file in Vim, make your changes, and save them without leaving the command line or taking your hands off the keyboard:
 
 ```bash
 cd ~/repos/central
 vim README.md
 # make changes
 :wq # save and quit
-git add README.md # or ga README.md
-git commit -m "Update README" # or gc -m "Update README"
-git push # or gp
 ```
 
-#### Customization:
+#### Customization
 
 Vim is highly customizable, and you can configure it to suit your preferences. You can create custom key mappings, install plugins, and customize the appearance of Vim to make it more efficient and user-friendly.
 
 There are many resources available online to help you customize Vim, including the official documentation and various tutorials.
 
 Here is my personal `.vimrc` file for reference, I only have a few customizations:
+
 ```vim
 syntax on " Enable syntax highlighting
 set number " Show line numbers
@@ -159,7 +158,7 @@ inoremap jj <ESC> " Map jj to escape in insert mode (alternative to pressing esc
 ```
 
 
-### Git CLI (Optional):
+### Git CLI (Optional)
 
 If you are used to using a GUI for git, consider learning the terminal commands. It can potentially be more efficient, especially for common tasks like committing changes, creating branches, and merging code.
 
@@ -170,6 +169,19 @@ Here's a [quick cheat sheet](https://education.github.com/git-cheat-sheet-educat
 
 I tend to use the command line for most git tasks, but I also use a GUI for visualizing the commit history and resolving merge conflicts.
 
+#### Git CLI Applied
+
+Continuing with the previous example of updating a README file, you can use the command line to commit your changes to git:
+
+```bash
+cd ~/repos/central
+vim README.md
+# make changes
+:wq # save and quit
+git add README.md # or ga README.md
+git commit -m "Update README" # or gc -m "Update README"
+git push # or gp
+```
 
 
 ## 3. Keyboard Shortcuts
@@ -256,22 +268,22 @@ Both IDEs have plugins that can help you learn and practice shortcuts.  For exam
 
 ## 5. Additional Tools and Resources (MacOS)
 
-### Window Snapping:
+### Window Snapping
 MacOS does not have built-in window snapping like Windows, but you can use third-party tools like [Rectangle](https://rectangleapp.com/) to achieve similar functionality. These tools allow you to quickly resize and snap windows to different parts of the screen using keyboard shortcuts.
 
-### Spotlight/Alfred:
+### Spotlight/Alfred
 Spotlight is a powerful search tool built into MacOS that allows you to quickly find files, launch applications, perform calculations, and more. You can access Spotlight by pressing `Cmd + Space`.
 
 [Alfred](https://www.alfredapp.com/) is an alternative to Spotlight that provides additional features like custom workflows, clipboard history, and more. Alfred can be a powerful tool for boosting productivity and automating repetitive tasks.
 
 I personally use Alfred.
 
-### Clipboard Managers:
+### Clipboard Managers
 I don't know about you, but I find myself copying and pasting a lot of text throughout the day.
 
 Clipboard managers are tools that store a history of items you've copied to the clipboard, allowing you to paste them later. This can be useful when you need to copy multiple items or refer back to something you copied earlier. Some popular clipboard managers include [Alfred](https://www.alfredapp.com/) (as mentioned above) and [CopyClip](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12).
 
-## 6. Conclusion
+## Conclusion
 
 Efficiency in computer programming is not just about writing code faster; it's about optimizing your entire workflow to save time and reduce errors. By improving your typing speed, mastering the command line, learning keyboard shortcuts, and utilizing IDE features, you can become a more productive and effective programmer.
 
