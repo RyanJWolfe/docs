@@ -20,7 +20,7 @@ In this document, we'll explore various techniques to improve efficiency in comp
 One of the foundational and sometimes overlooked skills for any programmer is keyboard proficiency, specifically typing speed and accuracy.\
 The faster you can type (without thinking i.e. muscle memory), the quicker you can translate your thoughts into code, write documentation, navigate your computer, etc.
 
-### Touch Typing
+### Touch Typing ⌨️
 
 [Touch typing](https://en.wikipedia.org/wiki/Touch_typing) is the technique of typing without looking at the keyboard.  I am also including home row finger placement as part of touch typing.  Learning to touch type will allow you to focus on the screen and code rather than the keyboard.
 
@@ -31,7 +31,7 @@ From my own experience, I was a decently fast typer at ~80-100 wpm without using
 
 There are numerous online resources and typing tutors available to help you learn touch typing such as https://www.typing.com/student/lessons.
 
-### Typing Speed
+### Typing Speed 🏎️
 
 Going hand in hand with touch typing is typing speed.  The faster you can type, the quicker you can do most tasks on a computer.
 
@@ -40,7 +40,7 @@ Take some time to assess your current typing speed using online tools like https
 To improve your typing speed, you will probably find that with just 5-10 minutes a day, you can make significant progress.
 
 
-#### Exercise
+### Exercise 🧪
 As an exercise, record your current typing speed (WPM) and then do another test after a week of practice.  How much did you improve?
 
 **Current Typing Speed**: XX WPM\
@@ -268,20 +268,26 @@ Both IDEs have plugins that can help you learn and practice shortcuts.  For exam
 
 ## 5. Additional Tools and Resources (MacOS)
 
-### Window Snapping
+### Window Snapping 🪟
 MacOS does not have built-in window snapping like Windows, but you can use third-party tools like [Rectangle](https://rectangleapp.com/) to achieve similar functionality. These tools allow you to quickly resize and snap windows to different parts of the screen using keyboard shortcuts.
 
-### Spotlight/Alfred
+### Spotlight/Alfred 🔎
 Spotlight is a powerful search tool built into MacOS that allows you to quickly find files, launch applications, perform calculations, and more. You can access Spotlight by pressing `Cmd + Space`.
 
 [Alfred](https://www.alfredapp.com/) is an alternative to Spotlight that provides additional features like custom workflows, clipboard history, and more. Alfred can be a powerful tool for boosting productivity and automating repetitive tasks.
 
 I personally use Alfred.
 
-### Clipboard Managers
+### Clipboard Managers 📋
 I don't know about you, but I find myself copying and pasting a lot of text throughout the day.
 
 Clipboard managers are tools that store a history of items you've copied to the clipboard, allowing you to paste them later. This can be useful when you need to copy multiple items or refer back to something you copied earlier. Some popular clipboard managers include [Alfred](https://www.alfredapp.com/) (as mentioned above) and [CopyClip](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12).
+
+### Notes 🗒️
+I find it helpful to keep a digital notebook for jotting down ideas, code snippets, or other information. This can be a simple text file, the build-in Notes app, or a dedicated note-taking app like [Notion](https://www.notion.so/).
+
+💡 Tip: Use keyboard shortcuts to quickly open your notes app, create new notes, and search for existing notes.
+
 
 ## Conclusion
 
