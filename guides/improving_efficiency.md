@@ -1,8 +1,8 @@
 # Improving Efficiency for Software Developers
 
-In the fast-paced world of software development, efficiency is a key component.
+Efficiency is paramount in the fast-paced world of software development
 
-As established software engineers, you're already well-versed in the intricacies of coding, but there are always ways to streamline your workflow and boost productivity.
+As an established software engineer, you're already well-versed in the intricacies of coding, but there are always ways to streamline your workflow and boost productivity.
 
 In this document, we'll explore various techniques to improve efficiency in computer programming.
 
@@ -17,8 +17,9 @@ In this document, we'll explore various techniques to improve efficiency in comp
 
 ## 1. Baseline Skills
 
-One of the foundational and sometimes overlooked skills for any programmer is keyboard proficiency, specifically typing speed and accuracy.\
-The faster you can type (without thinking i.e. muscle memory), the quicker you can translate your thoughts into code, write documentation, navigate your computer, etc.
+One of the foundational and sometimes overlooked skills for any programmer is keyboard proficiency, specifically typing speed and accuracy.
+
+The faster you can type (without thinking i.e. muscle memory), the quicker you can translate your thoughts into code, write documentation, navigate around your computer, etc.
 
 ### Touch Typing ⌨️
 
@@ -37,7 +38,7 @@ Going hand in hand with touch typing is typing speed.  The faster you can type, 
 
 Take some time to assess your current typing speed using online tools like https://typingtest.com or https://monkeytype.com/.
 
-To improve your typing speed, you will probably find that with just 5-10 minutes a day, you can make significant progress.
+To improve your typing speed, you will probably find that with just 5-10 minutes of practice a day, you can make significant progress.
 
 
 ### Exercise 🧪
